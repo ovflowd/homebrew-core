@@ -2970,6 +2970,7 @@ weechat
 wego
 werf
 wgcf
+whisper-cpp
 whistle
 whois
 wikibase-cli
