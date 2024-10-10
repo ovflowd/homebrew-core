@@ -6,6 +6,11 @@ class Counterfeiter < Formula
   license "MIT"
   head "https://github.com/maxbrunsfeld/counterfeiter.git", branch: "master"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_sequoia:  "f77e88c33b4a9f55f3125fa4dc72eabf4e2823b37a7a0841a66c1a7a6d58ef48"
     sha256 cellar: :any_skip_relocation, arm64_sonoma:   "f77e88c33b4a9f55f3125fa4dc72eabf4e2823b37a7a0841a66c1a7a6d58ef48"
